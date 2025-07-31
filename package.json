@@ -1,8 +1,10 @@
 {
-  "name": "demo1",
+  "name": "eventhub-testing-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Event Ticket Booking website with intentional bugs for testing automation tools",
+  "keywords": ["react", "testing", "automation", "event-booking", "bugs"],
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
