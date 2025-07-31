@@ -24,7 +24,7 @@ const BookTicket = () => {
   const [selectedSeats, setSelectedSeats] = useState<string[]>([]);
   const [ticketQuantity, setTicketQuantity] = useState(1);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
-  const [bookingStep, setBookingStep] = useState(1);
+  const [, setBookingStep] = useState(1);
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',

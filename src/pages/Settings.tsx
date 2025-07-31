@@ -29,7 +29,7 @@ const Settings = () => {
     twoFactorAuth: false
   });
 
-  const [brokenDropdownOpen, setBrokenDropdownOpen] = useState(false);
+  const [, setBrokenDropdownOpen] = useState(false);
 
   const languages = [
     { value: 'en', label: 'English' },

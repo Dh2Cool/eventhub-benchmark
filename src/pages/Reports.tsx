@@ -5,7 +5,8 @@ import Card from '../components/Card';
 import Modal from '../components/Modal';
 import Dropdown from '../components/Dropdown';
 import Toggle from '../components/Toggle';
-import { apiService, User } from '../utils/api';
+import { apiService } from '../utils/api';
+import type { User } from '../utils/api';
 
 interface ChartData {
   name: string;

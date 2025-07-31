@@ -4,7 +4,8 @@ import Button from '../components/Button';
 import Card from '../components/Card';
 import Modal from '../components/Modal';
 import Input from '../components/Input';
-import { apiService, Post, CreatePostData } from '../utils/api';
+import { apiService } from '../utils/api';
+import type { Post, CreatePostData } from '../utils/api';
 
 const Dashboard = () => {
   const [posts, setPosts] = useState<Post[]>([]);

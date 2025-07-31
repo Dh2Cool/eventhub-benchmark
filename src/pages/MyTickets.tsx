@@ -136,7 +136,7 @@ const MyTickets = () => {
     alert('Confirmation email sent!');
   };
 
-  const handleRefund = (ticketId: string) => {
+  const handleRefund = (_ticketId: string) => {
     // Bug: refund process is broken
     console.log('Refund bug: Process not implemented');
     alert('Refund processing is temporarily unavailable');
